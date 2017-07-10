@@ -3,7 +3,7 @@ nodes = [
   {:hostname => 'cfc-worker1', :ip => '192.168.122.11', :box => 'centos/7', :cpu => 2, :memory => 2048},
   {:hostname => 'cfc-worker2', :ip => '192.168.122.12', :box => 'centos/7', :cpu => 2, :memory => 2048},
   # Here, here, here, add more worker nodes here.
-  {:hostname => 'cfc-master', :ip => '192.168.122.10', :box => 'centos/7', :cpu => 2, :memory => 4096},
+  {:hostname => 'cfc-master', :ip => '192.168.122.10', :box => 'centos/7', :cpu => 2, :memory => 2048},
 ]
 
 # Please update the cfc_config according to your laptop network
